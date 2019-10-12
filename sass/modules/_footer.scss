@@ -1,0 +1,28 @@
+footer{
+    margin:0 auto;
+    background-color:$purple;
+    text-align:center;
+    padding:60px 0 60px 0;
+
+    p{
+        color:white;
+        opacity:0.5;
+        font-size:0.7em;
+    }
+
+    img{
+        width:70%;
+        padding:0 0 20px 0;
+    }
+}
+
+/**     DESKTOP QUERY BEGINS     **/
+
+@media (min-width:60em) {
+
+    #footer{
+        img{
+            max-width:300px;
+        }
+    }
+}
