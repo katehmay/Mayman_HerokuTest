@@ -1,7 +1,7 @@
 {
-  "name": "hw1_template",
+  "name": "herokutest",
   "version": "1.0.0",
-  "description": "",
+  "description": "A small test for a Heroku application",
   "main": "app.js",
   "scripts": {
     "start": "node app"
@@ -11,5 +11,19 @@
   "license": "ISC",
   "dependencies": {
     "express": "^4.17.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/katehmay/Mayman_HerokuTest.git"
+  },
+  "bugs": {
+    "url": "https://github.com/katehmay/Mayman_HerokuTest/issues"
+  },
+  "homepage": "https://github.com/katehmay/Mayman_HerokuTest#readme",
+  "devDependencies": {
+    "autoprefixer": "^9.6.4",
+    "gulp": "^4.0.2",
+    "gulp-postcss": "^8.0.0",
+    "gulp-sass": "^4.0.2"
   }
 }
