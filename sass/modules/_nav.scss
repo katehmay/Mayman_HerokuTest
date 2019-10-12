@@ -1,0 +1,33 @@
+#main-nav{
+    padding-top:90px;
+    
+    #logo{
+        margin:0 auto;
+        width:200px / 360px * 100%;
+        max-width:280px;
+    }
+}
+
+/**     TABLET QUERY BEGINS     **/
+
+@media (min-width:48em) {
+
+    #logo{
+        width:200px / 768px * 100%;
+    }
+
+}
+
+/**     DESKTOP QUERY BEGINS     **/
+
+@media (min-width:60em) {
+
+    #main-nav{
+
+        #logo{
+            padding-top:100px;
+            width:250px / 960px * 100%;
+        }
+
+    }
+}

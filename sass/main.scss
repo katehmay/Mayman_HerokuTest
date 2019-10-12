@@ -1,5 +1,39 @@
-main {
-    width: 90%;
-    text-align: center;
-    margin: 0 auto;
+@import "_vars";
+@import "modules/_nav";
+@import "modules/_hero";
+@import "modules/_about";
+@import "modules/_video";
+@import "modules/_footer";
+@import url('https://fonts.googleapis.com/css?family=Schoolbell&display=swap');
+
+
+.hidden {
+    display: none;
+}
+
+h1, h2, h3{
+    font-family: 'Schoolbell', cursive;
+}
+
+h1{
+    font-size:3.4em;
+}
+
+h2{
+    font-size:1.7em;
+}
+
+p{
+    font-family:verdana, sans-serif;
+    font-size:0.85em;
+    color:#4e4e4e;
+    line-height:1.2em;
+}
+
+/**     DESKTOP QUERY BEGINS     **/
+
+@media (min-width:60em) {
+    p{
+        font-size:1em;
+    }
 }

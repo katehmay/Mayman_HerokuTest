@@ -1,0 +1,37 @@
+#hero{
+    background-image:url('../images/sm_banner.jpg');
+    background-size:cover;
+    background-repeat:no-repeat;
+    background-position:center;
+    height:500px;
+}
+
+#hero-tagline{
+    background-color:$purple;
+    padding:40px 0 40px 0;
+
+    h1, h2{
+        text-align:center;
+        color:white;
+    }
+
+    h2{ opacity:0.8; }
+}
+
+/**     TABLET QUERY BEGINS     **/
+
+@media (min-width:48em) {
+
+    #hero{
+        height:600x;
+    }
+}
+
+/**     DESKTOP QUERY BEGINS     **/
+
+@media (min-width:60em) {
+
+    #hero{
+        height:768px;
+    }
+}
